@@ -25,7 +25,7 @@
 				</svg>
 			</button>
 		</div>
-		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+		<ul class="hidden transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6 flex justify-center items-center mx-auto">
 			<li><a class="text-sm text-gray-500 hover:text-gray-700 font-bold" href="#">Home</a></li>
 			<li class="text-gray-300">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -100,35 +100,50 @@
 			</div>
 		</nav>
 	</div>
-    <div class="product-cont relative px-20 py-2 mx-28 my-10 flex justify-start  items-center w-full 	  ">
-     <!-- Component: Slider with controls inside -->
-<div class="relative w-full max-w-96 glide-01">
-    <!-- Slides -->
-    <div class="overflow-hidden" data-glide-el="track">
-        <ul class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
-            <li><img src="image/LastingImpressionBouquet.jpg" class="w-full max-w-96 max-h-full m-auto" /></li>
-            <li><img src="image/2023-09-29-61161.jpg" class="w-96 max-w-full  max-h-full m-auto" /></li>
-            <li><img src="image/Pink-Embrace-Care-Package.jpg" class="w-full max-w-96 max-h-full m-auto" /></li>
-            <li><img src="image/Cheers-and-Love-Bouquet.jpg" class="w-full max-w-96 max-h-full m-auto" /></li>
-            <li><img src="image/Painted-Skies-Tulip-1671.jpg" class="w-full max-w-96 max-h-full m-auto" /></li>
-        </ul>
-    </div>
-    <!-- Controls -->
-    <div class="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 " data-glide-el="controls">
-        <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-10 lg:h-10 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir="<" aria-label="prev slide">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                <title>prev slide</title>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-            </svg>
-        </button>
-        <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-10 lg:h-10 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir=">" aria-label="next slide">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                <title>next slide</title>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-            </svg>
-        </button>
-    </div>
-</div>
+	<div class="product-cont relative py-2 mx-auto my-10 mt-20 px-28 flex flex-col w-auto sm:w-screen lg:flex-row lg:items-center lg:justify-center lg:space-x-6 md:flex md:mx-auto md:items-center md:space-x-4 md:flex justify-center">
+		<div class="px-12 py-12 mx-auto w-full mx-12 lg:w-1/2 lg:order-2 sm:ml-0 md: ml-0 sm:-mx-0 sm:-px-0 ">
+		  <h2 class="text-7xl font-black mb-4 text-stone-100 font-serif ">Welcome to our Flower Shop </h2>
+		  <p class="mb-3 ml-4">
+			Our team of expert florists carefully selects each stem to create stunning arrangements that are sure to put a smile on your face.
+		  </p>
+		  <p class="mb-3 ml-4 hidden sm:block">
+			Browse our selection of hand-tied bouquets, vase arrangements, and plant gifts, and find the perfect way to show your loved ones how much you care.
+		  </p>
+		  <p class="mb-6 font-semibold ml-4 hidden sm:block">
+			So why wait? Bring a little bit of nature's beauty into your life today, and let our flowers make you happy. 💐
+		  </p>
+		  <a href="insert link" class="bg-red-50 text-black px-4 py-4 rounded hover:bg-red-100 shadow-lg w-48 text-center font-bold shadow-md shadow-slate-400 ml-6 mt-6 sm:py-0 sm:px-0" >
+			Shop Now
+		  </a>
+		</div>
+		<div class="relative w-full max-w-96 glide-01 mx-32 lg:w-1/2 lg:order-1 hidden sm:block">
+		  <!-- Slides -->
+		  <div class="overflow-hidden" data-glide-el="track">
+			<ul class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+			  <li><img src="image/LastingImpressionBouquet.jpg" class="w-full max-w-96 max-h-full m-auto rounded-md " /></li>
+			  <li><img src="image/2023-09-29-61161.jpg" class="w-96 max-w-full  max-h-full m-auto rounded-md" /></li>
+			  <li><img src="image/Pink-Embrace-Care-Package.jpg" class="w-full max-w-96 max-h-full m-auto rounded-md" /></li>
+			  <li><img src="image/Cheers-and-Love-Bouquet.jpg" class="w-full max-w-96 max-h-full m-auto rounded-md" /></li>
+			  <li><img src="image/Painted-Skies-Tulip-1671.jpg" class="w-full max-w-96 max-h-full m-auto rounded-md" /></li>
+			</ul>
+		  </div>
+		  <!-- Controls -->
+		  <div class="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 " data-glide-el="controls">
+			<button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-10 lg:h-10 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir="<" aria-label="prev slide">
+			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+				<title>prev slide</title>
+				<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+			  </svg>
+			</button>
+			<button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full lg:w-10 lg:h-10 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20" data-glide-dir=">" aria-label="next slide">
+			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+				<title>next slide</title>
+				<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+			  </svg>
+			</button>
+		  </div>
+		</div>
+	  </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
 
@@ -146,11 +161,84 @@
 
     });
 
-    glide01.mount();
-</script>
+    glide01.mount();</script>
 <!-- End Slider with controls inside -->
+</div>
 
+
+	<div class="footer ">
+		<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+<footer class="relative bg-stone-100 pt-8 pb-16">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-black-700">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+          Find us on any of these platforms, we respond 1yy business days.
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Gifts</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Stores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex  items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2024</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+	<!-- component -->
+
 
         
     </body>
